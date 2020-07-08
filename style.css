@@ -1,0 +1,180 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  background-color: #f0fff0;
+  margin-bottom: 42px;
+  padding: 42px 0;
+}
+
+.nav-item a {
+  color: #000000;
+  font-size: 16px;
+  line-height: 24px;
+  transition: 0.5s;
+}
+
+.nav-item a:hover {
+  color: gray;
+  transition: 0.5s;
+}
+
+.button_link {
+  background-color: #21b573;
+  color: white !important;
+  border-radius: 33px;
+  padding: 12px 28px;
+  border: none;
+}
+
+.button_link:hover {
+  background-color: #01884b;
+  transition: 0.5s;
+}
+
+h3 {
+  font-size: 24px;
+  line-height: 36px;
+  color: #413960;
+}
+
+.header_bottom_part h6 {
+  color: #fd511a;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.header_bottom_part h1 {
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 70px;
+}
+
+.header_bottom_part span {
+  color: #21b573;
+}
+
+.header_bottom_part p {
+  font-size: 16px;
+  line-height: 36px;
+  color: #6c6b6b;
+}
+
+.data_section {
+  margin-bottom: 42px;
+}
+.data_section .card {
+  width: 270px;
+  height: 270px;
+  background-color: #f8fffb;
+  border: none;
+  border-radius: 10px;
+}
+
+.box_style {
+  background: #ffffff;
+  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.data_section .card-body {
+  margin-top: 160px;
+}
+
+.data_section p {
+  color: #585859;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.courses_section {
+  margin-bottom: 42px;
+}
+
+.courses_section h2 {
+  text-align: center;
+  color: #413960;
+  font-size: 36px;
+  line-height: 54px;
+  margin: 50px 0;
+  font-weight: bold;
+}
+
+.courses_section .card {
+  background: #ffffff;
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 18px;
+  border: none;
+}
+
+.courses_section .card p,
+.card span {
+  font-size: 16px;
+  line-height: 24px;
+  color: #585859;
+}
+
+.courses_section .card-footer {
+  border: none;
+  background-color: #ffffff;
+}
+
+.courses_section .button_link {
+  padding: 8px 28px;
+}
+
+.testimonial_section {
+  padding: 0 20%;
+}
+.testimonial_section h2 {
+  text-align: center;
+  color: #000000;
+  font-size: 36px;
+  line-height: 54px;
+  margin: 50px 0;
+  font-weight: bold;
+}
+
+.testimonial_section p {
+  text-align: left;
+  color: #000000;
+  font-size: 16px;
+  line-height: 30px;
+}
+.testimonial_section img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-right: 7%;
+}
+
+.footer_section {
+  background-color: #000000;
+  margin: 42px 0;
+  padding: 5% 0 1% 0;
+}
+
+.footer_section .font-weight-bold {
+  font-size: 18px;
+  text-align: left;
+}
+
+.footer_section a {
+  color: #ffffff;
+  display: block;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.footer_section .text-left {
+  padding: 0 9%;
+}
+
+.footer_section p {
+  text-align: center;
+  margin-top: 3%;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 30px;
+}
