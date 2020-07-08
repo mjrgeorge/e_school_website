@@ -1,28 +1,44 @@
 body {
+  margin: 0;
   font-family: "Poppins", sans-serif;
 }
 
 header {
   background-color: #f0fff0;
-  margin-bottom: 42px;
-  padding: 42px 0;
+  padding-bottom: 50px;
 }
 
-.nav-item a {
-  color: #000000;
+.navbar #bg-light {
+  background-color: #f8f9fa;
+}
+
+header .nav-item a {
   font-size: 16px;
   line-height: 24px;
   transition: 0.5s;
 }
 
-.nav-item a:hover {
-  color: gray;
+.navbar-light .navbar-nav .nav-link {
+  color: #000000;
+}
+.navbar .button_style {
+  background-color: #21b573;
+  border-radius: 33px;
+  width: 100px;
+  height: 40px;
+  padding: 8px 28px;
+  text-align: center;
+  color: #ffffff !important;
+}
+
+.navbar .button_style:hover {
+  background-color: #01884b;
   transition: 0.5s;
 }
 
 .button_link {
   background-color: #21b573;
-  color: white !important;
+  color: white;
   border-radius: 33px;
   padding: 12px 28px;
   border: none;
@@ -39,6 +55,9 @@ h3 {
   color: #413960;
 }
 
+.header_bottom_part {
+  margin-top: 5%;
+}
 .header_bottom_part h6 {
   color: #fd511a;
   font-size: 16px;
@@ -47,7 +66,7 @@ h3 {
 
 .header_bottom_part h1 {
   font-weight: bold;
-  font-size: 48px;
+  font-size: 50px;
   line-height: 70px;
 }
 
@@ -62,8 +81,9 @@ h3 {
 }
 
 .data_section {
-  margin-bottom: 42px;
+  margin: 50px 0;
 }
+
 .data_section .card {
   width: 270px;
   height: 270px;
@@ -78,8 +98,8 @@ h3 {
   border-radius: 10px;
 }
 
-.data_section .card-body {
-  margin-top: 160px;
+.data_section h3 {
+  margin-top: 10%;
 }
 
 .data_section p {
@@ -89,7 +109,7 @@ h3 {
 }
 
 .courses_section {
-  margin-bottom: 42px;
+  margin: 50px 0;
 }
 
 .courses_section h2 {
@@ -124,8 +144,15 @@ h3 {
   padding: 8px 28px;
 }
 
+.course_seats img,
+.start_date img {
+  width: 24px;
+  height: 24px;
+}
+
 .testimonial_section {
   padding: 0 20%;
+  margin: 50px 0;
 }
 .testimonial_section h2 {
   text-align: center;
@@ -149,9 +176,31 @@ h3 {
   margin-right: 7%;
 }
 
+.newsletter_section {
+  margin: 5% 20%;
+}
+
+.newsletter {
+  margin: auto;
+  padding: 7%;
+  border-radius: 50px 0px 50px 0px;
+  background-color: #f0fff0;
+}
+
+.newsletter .btn-primary {
+  background-color: #21b573;
+  border: none;
+  margin-top: 2%;
+  border-radius: 25px 0px 25px 0px;
+}
+
+.newsletter .btn-primary:hover {
+  background-color: #01884b;
+}
+
 .footer_section {
   background-color: #000000;
-  margin: 42px 0;
+  margin-top: 50px;
   padding: 5% 0 1% 0;
 }
 
